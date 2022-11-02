@@ -1,0 +1,10 @@
+basicsr
+facexlib
+ffmpeg-python
+numpy
+opencv-python
+pillow
+psutil
+torch
+torchvision
+tqdm
