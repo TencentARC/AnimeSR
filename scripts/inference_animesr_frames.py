@@ -101,7 +101,10 @@ def main():
     # the input format can be:
     # 1. clip folder which contains frames
     # or 2. a folder which contains several clips
-    first_level_dir = len(glob.glob(osp.join(args.input, '*.png'))) > 0
+    img_types = ['*.png', '*.jpg', '*.jpeg', '*.bmp']
+    first_level_dir = False
+    for img_type in img_types:
+        first_level_dir = first_level_dir or len(glob.glob(osp.join(args.input, img_type))) > 0 or len(glob.glob(osp.join(args.input, img_type.upper()))) > 0
     if args.input.endswith('/'):
         args.input = args.input[:-1]
     if first_level_dir:
