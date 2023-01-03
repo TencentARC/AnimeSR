@@ -11,6 +11,7 @@ repos:
     rev: v2.2.0
     hooks:
       - id: seed-isort-config
+        args: ["--exclude=scripts/metrics/inference_MANIQA.py"]
 
   # isort
   - repo: https://github.com/timothycrosley/isort
