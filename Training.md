@@ -68,6 +68,9 @@ Before the training, you will need to modify the `degradation_model_path` to the
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --master_port=12345 realanimevsr/train.py -opt options/train_animesr_step3_gan_3LBOs.yml --launcher pytorch --auto_resume
 ```
 
+## Evaluation
+See [evaluation readme](scripts/metrics/README.md).
+
 ## The Pre-Trained Checkpoints
 You can download the checkpoints of all steps in [google drive](https://drive.google.com/drive/folders/1hCXhKNZYBADXsS_weHO2z3HhNE-Eg_jw?usp=share_link).
 

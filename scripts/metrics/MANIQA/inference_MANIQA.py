@@ -2,11 +2,11 @@ import argparse
 import os
 import random
 import torch
-from pipal_data.ntire2022 import NTIRE2022
+from pipal_data import NTIRE2022
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from tqdm import tqdm
-from utils.eval_process_image import Normalize, ToTensor, crop_image
+from utils import Normalize, ToTensor, crop_image
 
 
 def parse_args():
