@@ -11,6 +11,10 @@
 * **2022.08.29**: release AVC-Train and AVC-Test.
 
 
+## Web Demo and API
+
+[![Replicate](https://replicate.com/cjwbw/animesr/badge)](https://replicate.com/cjwbw/animesr) 
+
 ## Video Demos
 
 https://user-images.githubusercontent.com/11482921/204205018-d69e2e51-fbdc-4766-8293-a40ffce3ed25.mp4
