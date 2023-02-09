@@ -1,17 +1,16 @@
-from subprocess import call
-
-call("python setup.py develop", shell=True)
-
 import os
 import shutil
 import tempfile
+from subprocess import call
 from zipfile import ZipFile
 from typing import Optional
 import mimetypes
 import torch
 
 from cog import BasePredictor, Input, Path, BaseModel
-from animesr.utils import video_util
+
+
+call("python setup.py develop", shell=True)
 
 
 class ModelOutput(BaseModel):
