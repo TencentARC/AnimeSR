@@ -106,7 +106,7 @@ See [Training.md](Training.md)
 
 ## Request for AVC-Dataset
 1. Download and carefully read the [LICENSE AGREEMENT](assets/LICENSE%20AGREEMENT.pdf) PDF file.
-2. If you understand, acknowledge, and agree to all the terms specified in the [LICENSE AGREEMENT](assets/LICENSE%20AGREEMENT.pdf). Please email `yanzewu@tencent.com` with the **LICENSE AGREEMENT PDF** file, **your name**, and **institution**. We will keep the license and send the download link of AVC dataset to you.
+2. If you understand, acknowledge, and agree to all the terms specified in the [LICENSE AGREEMENT](assets/LICENSE%20AGREEMENT.pdf). Please email `wuyanze123@gmail.com` with the **LICENSE AGREEMENT PDF** file, **your name**, and **institution**. We will keep the license and send the download link of AVC dataset to you.
 
 
 ## Acknowledgement
@@ -124,4 +124,4 @@ If you find this project useful for your research, please consider citing our pa
 ```
 
 ## :e-mail: Contact
-If you have any question, please email `yanzewu@tencent.com`.
+If you have any question, please email `wuyanze123@gmail.com`.
